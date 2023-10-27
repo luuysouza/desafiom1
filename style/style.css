@@ -1,0 +1,95 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+#topo {
+    background-color: #303030;
+    height: 475px;
+    color: #FFFFFF;
+
+}
+
+#top-title {
+    font-size: 60px;
+    padding-top: 150px;
+    margin-left: 60px;
+}
+
+#top-text {
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.information{
+    display: flex;
+    text-align: left;
+    padding: 100px;
+}
+
+.container{
+    margin-left: 15%;
+}
+
+#history{
+    display: flex;
+    align-items: center;
+    margin-left: 12%;
+}
+
+#history-container{
+    padding: 5%;
+    position: relative;
+}
+
+#formulario{
+    height: 650px;
+    background-color: #303030;
+    text-align: center;
+}
+
+#form-title{
+    color: #FFFFFF;
+    padding-top: 75px;
+    font-size: 32px;
+}
+
+input{
+    width: 25%;
+    height: 55px;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 70px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+button{
+    margin-top: 90px;
+    width: 286px;
+    height: 60px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #C07212;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.slides {
+    position: relative;
+    width: 300px;
+    height: 700px;
+}
+
+.slides img{
+    position: absolute;
+    opacity: 0;
+
+    transition: opacity 800ms;
+}
+
+.slides img.showing{
+    opacity: 1;
+}
